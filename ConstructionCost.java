@@ -1,15 +1,9 @@
-package com.code.Loggingtask5;
-
-import java.util.logging.Logger;
+package com.code.ConstructionCost;
 
 public class ConstructionCost {
 	// Finding the cost of construction of a house 
-	final static Logger logger = Logger.getLogger("ConstructionCost.java");
+
 		public double costForConstructionMaterial(String material,double area,boolean automation) {
-			if(material==null||area<=0||automation!=(true&&false))
-					{
-				logger.warning("material,area and automation can't be Null");
-					}
 
 			if(material.equals("Standard") && automation==false) {
 
